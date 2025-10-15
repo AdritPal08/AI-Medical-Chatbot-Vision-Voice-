@@ -123,6 +123,6 @@ def text_to_speech_with_gtts(input_text, output_filepath):
     tts.save(output_filepath)
     playsound(output_filepath)
 
-input_text = "Hi this is medical ai bot, autoplay testing!"
+# input_text = "Hi this is medical ai bot, autoplay testing!"
 # text_to_speech_with_gtts(input_text, "gtts_testing_autoplay.mp3")
-text_to_speech_with_elevenlabs(input_text, output_filepath="elevenlabs_testing_autoplay.mp3")
+# text_to_speech_with_elevenlabs(input_text, output_filepath="elevenlabs_testing_autoplay.mp3")
